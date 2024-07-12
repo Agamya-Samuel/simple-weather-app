@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			return;
 		}
 
-		const apiUrl = `https://weather-api.agamya.eu.org/${city}`;
+		const apiUrl = `https://weather-js-api.agamya.dev/${city}`;
 
 		fetch(apiUrl)
 			.then((response) => {
